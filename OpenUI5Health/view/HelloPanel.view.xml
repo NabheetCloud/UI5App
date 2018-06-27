@@ -1,0 +1,37 @@
+<mvc:View
+	controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Junk Food "  press="press">
+		<TileContent unit="Days" >
+			<NumericContent value="{invoice>/data/0/Junk}" icon="sap-icon://meal" 
+				valueColor="{= ${invoice>/data/0/Junk}  > 0 ? 'Good' : 'Critical' }"/>
+		</TileContent>
+	</GenericTile>
+		<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sugar "  press="press">
+		<TileContent unit="Days">
+			<NumericContent value="{invoice>/data/0/Sugar}" icon="sap-icon://stop" 
+				valueColor="{= ${invoice>/data/0/Sugar}  > 0 ? 'Good' : 'Critical' }" />
+		</TileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Running "  press="press">
+		<TileContent unit="Days" >
+			<NumericContent value="{invoice>/data/0/Run}" icon="sap-icon://physical-activity" 
+				valueColor="{= ${invoice>/data/0/Run}  > 0 ? 'Good' : 'Critical' }"/>
+		</TileContent>
+	</GenericTile>
+		<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sleeping on Time"  press="press" >
+		<TileContent unit="Days" >
+			<NumericContent value="{invoice>/data/0/Sleep}" icon="sap-icon://bed"
+			valueColor="{= ${invoice>/data/0/Sleep}  > 0 ? 'Good' : 'Critical' }" />
+		</TileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="WakeUp"  press="press">
+		<TileContent unit="Days">
+			<NumericContent value="{invoice>/data/0/WakeUp}"  icon="sap-icon://activate"
+				valueColor="{= ${invoice>/data/0/WakeUp}  > 0 ? 'Good' : 'Critical' }"/>
+		</TileContent>
+	</GenericTile>
+</mvc:View>

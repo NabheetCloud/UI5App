@@ -1,0 +1,25 @@
+{
+	"CountriesCollection" : [
+		{
+			"key":"Junk Food",
+			"text":"Junk Food"
+		},
+		{
+			"key":"Sugar",
+			"text":"Sugar"
+		},
+				{
+			"key":"Run",
+			"text":"Run"
+		},
+		{
+			"key":"Sleep",
+			"text":"Sleep"
+		},
+				{
+			"key":"WakeUp",
+			"text":"WakeUp"
+		}
+
+	]
+}

@@ -1,0 +1,157 @@
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+ 	margin-right: 0.125rem
+}
+
+html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
+ 	margin-left: 0.125rem
+}
+
+.myAppDemoWT .myCustomText {
+	display: inline-block;
+	font-weight: bold;
+}
+
+/*  ProductRating */
+.myAppDemoWTProductRating {
+	padding: 0.75rem;
+}
+
+.myAppDemoWTProductRating .sapMRI {
+	vertical-align: initial;
+}
+.sapMIBar.sapMHeader-CTX {
+ 
+    background-color: #222!important;
+
+}
+.sapMShellBrandingBar {
+
+    background-color: #222!important;
+}
+.sapMIBar-CTX .sapMTitle {
+    color: #fafafa;
+    text-shadow: 0 0 0.125rem #ffffff;
+}
+.sapMDialog>header.sapMDialogTitle .sapMTitle {
+   color: #fafafa;
+}
+.sapMBtnIcon {
+
+    color: #fafafa;
+}
+.sapMGTHdrTxt>.sapMText {
+    color: #222;
+    font-weight: bold;
+    font-family: "100",Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+}
+html.sap-desktop .sapContrast .sapMIBar.sapMFooter-CTX, html.sap-desktop .sapContrast.sapMIBar.sapMFooter-CTX {
+    background-color: #222;
+    border-top: 1px solid #222;
+}
+.sapMGT{
+      display: inline-block;
+    border-radius: 0.125rem;
+    border-top-left-radius: 0.125rem;
+    border-top-right-radius: 0.125rem;
+    border-bottom-right-radius: 0.125rem;
+    border-bottom-left-radius: 0.125rem;
+    position: relative;
+    outline: none;
+    box-sizing: border-box;
+    background-position: 0;
+    background: #ffffff;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    box-shadow: 0 0 0 1px #222;
+    vertical-align: top;
+}
+.sapMNCIconImage {
+    position: relative;
+    float: left;
+    padding-right: 0.625rem;
+    font-size: 1.75rem;
+    line-height: 1.65rem;
+    height: 1.75rem;
+    width: 1.75rem;
+    margin-top: 0.625rem;
+    vertical-align: top;
+    font-family: "72",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    color: #222;
+    float: none;
+}
+.sapMIBar-CTX.sapMFooter-CTX {
+    color: #fafafa;
+    text-shadow: 0 0 0.125rem #ffffff;
+    background-color: #222;
+    background-image: none;
+    border-top: 1px solid #ebebeb;
+    box-shadow: none;
+}
+.sapMBtnInner {
+    vertical-align: top;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    font-family: "72",Arial,Helvetica,sans-serif;
+    font-size: 0.875rem;
+    height: 2.500rem;
+    min-width: 2.500rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    background-color: #f7f7f7;
+    border: 1px solid #ababab;
+    border-top-color: rgb(171, 171, 171);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(171, 171, 171);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(171, 171, 171);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(171, 171, 171);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 0.2rem;
+    color: #fafafa;
+    text-shadow: 0 0 0.125rem #ffffff;
+}
+.sapContrast.sapMIBar-CTX.sapMFooter-CTX, .sapContrast .sapMIBar-CTX.sapMFooter-CTX {
+    color: #fafafa;
+    text-shadow: 0 0 0.125rem #000000;
+    background-color: #222;
+    background-image: none;
+    border-top: 1px solid #475b6d;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(71, 91, 109);
+}
